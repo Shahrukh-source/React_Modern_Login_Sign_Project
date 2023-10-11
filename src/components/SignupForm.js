@@ -82,14 +82,14 @@ navigate("/dashboard")
         </label>
         <label>
         <p  className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'>Last Name <sup className='text-pink-200'>*</sup></p>
-          <input required name='lastname' value={formData.lastname} placeholder='Enter Your Email' type='text' onChange={changeHandler}   className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'/>
+          <input required name='lastname' value={formData.lastname} placeholder='your Last name' type='text' onChange={changeHandler}   className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'/>
 
         </label>
         </div>
         <div>
         <label>
         <p  className='text-[0.875rem] text-richblack-5 mb-1 leading-[1.375rem]'>Phone Number<sup className='text-pink-200'>*</sup></p>
-          <input required name='phone' value={formData.phone} placeholder='Enter Your LastName' type='number' onChange={changeHandler}   className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'/>
+          <input required name='phone' value={formData.phone} placeholder='Enter Your Phone number' type='number' onChange={changeHandler}   className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]'/>
 
         </label>
         </div>
@@ -163,7 +163,7 @@ navigate("/dashboard")
         <label>
       
         <p  className='text-[0.875rem] text-richblack-800 mb-1 leading-[1.375rem]'>Email Adddress<sup className='text-pink-200'>*</sup></p>
-          <input  className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]' required name='email' value={formData.email} placeholder='Enter Your LastName' type='text' onChange={changeHandler}/>
+          <input  className='bg-richblack-800 rounded-[0.5rem] text-richblack-5 w-full p-[12px]' required name='email' value={formData.email} placeholder='Enter Your Email Address' type='text' onChange={changeHandler}/>
 
         </label>
         </div>

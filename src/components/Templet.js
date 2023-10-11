@@ -22,7 +22,7 @@ export default function Templet({title,desc1,desc2,image,formtype, setIsLoggedIn
                 <div className='w-full h-[1px] bg-richblack-700'></div>
             </div>
             <button className='w-full flex justify-center items-center rounded-[8px] font-medium text-richblack-100
-            border border-richblack-700 px-[12px] py-[8px] gap-x-2 mt-6 '><FcGoogle/><p>Signup with Google</p></button>
+            border border-richblack-700 px-[12px] py-[8px] gap-x-2 mt-6 '><FcGoogle/><p className='text-richblack-900 '>Signup with Google</p></button>
         </div>
         <div className='relative w-11/12 max-w-[450px] '>
             <img src={frameImage}
