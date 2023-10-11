@@ -40,7 +40,8 @@ export default function Navbar(props) {
         }
         {isLoggedIn  &&
             <Link to="/">
-                <button onClick={()=>{setIsLoggedIn(false);toast.success("Log Out")}}>LogOut</button>
+                <button  className='bg-richblack-800 text-richblack-100 py-[8px] 
+                    px-[12px] rounded-[8px] border border-richblack-700' onClick={()=>{setIsLoggedIn(false);toast.success("Log Out")}}>LogOut</button>
             </Link>
         }
         {isLoggedIn  &&
